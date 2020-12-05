@@ -48,3 +48,19 @@ ul {
     clear: both;
     display: table;
   }
+
+  h3 {
+      text-align: center;
+  }
+
+  li {
+      text-align: center;
+  }
+
+  label {
+      text-align: center;
+  }
+
+  .price {
+      font-weight: bold;
+  }

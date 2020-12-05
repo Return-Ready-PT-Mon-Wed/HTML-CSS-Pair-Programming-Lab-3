@@ -51,7 +51,9 @@ hr {
     border: solid black 1px;
     background-color: aliceblue;
     padding: 2em;
+    align-items: center;
 }
+
 
 .footer-nav-item {
     display: flex;

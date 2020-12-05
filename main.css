@@ -1,18 +1,11 @@
-
-
-/* main {
-    margin: 50%;
-    min-width: 400px;
-    max-width: 50%;
-} */
-
-ul {
-    list-style: none;
-}
-
-.navLink {
+.main-header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+.main-nav {
+    display: flex;
 }
 
 .deals {
@@ -39,11 +32,19 @@ ul {
 .footer-nav-item {
     display: flex;
     flex-direction: column;
-    border: solid black 1px;
-    background-color: aliceblue;
     padding: 2em;
 }
 
 footer h3 {
     font-weight: bold;
 }
+
+ul {
+    list-style: none;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+  }

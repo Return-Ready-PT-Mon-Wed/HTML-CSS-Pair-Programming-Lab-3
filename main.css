@@ -8,6 +8,30 @@
     display: flex;
 }
 
+.main-nav a {
+    text-align: center;
+	display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#companyName {
+    padding: 10px;
+}
+
+#signup {
+    color: lightblue;
+    border: solid 2px lightblue;
+    border-radius: 5px;
+}
+
+hr {
+    border-top: 3px solid lightslategray;
+    box-shadow: 0 5px 10px 3px lightslategray;
+    margin-bottom: 20px;
+}
+
 .deals {
     
     display: grid;

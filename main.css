@@ -22,10 +22,9 @@ body {
 }
 
 .container {
-    margin: 0% 28%;
+    margin: 0% 28% 3em 28%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .container h1,
@@ -108,10 +107,14 @@ body {
 
 
 
+#hrDiv {
+    width: 43%;
+    margin: auto;
+}
+
 #footerHr {
     border-top: 3px solid lightslategray;
     box-shadow: 0 5px 10px 3px lightslategray;
-    flex: 0 0 100%;
 }
 
 

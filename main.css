@@ -1,3 +1,4 @@
+/* Main */
 .main-header {
     display: flex;
     flex-direction: row;
@@ -16,14 +17,40 @@
     color: black;
 }
 
+.container {
+    margin: 0% 28%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.container h1,
+.container p {
+    text-align: center;
+}
+
 #companyName {
     padding: 10px;
 }
 
-#signup {
+/* Sale Item Button */
+#signup,
+.btn {
     color: lightblue;
     border: solid 2px lightblue;
     border-radius: 5px;
+}
+
+.sale-item .btn {
+    position: absolute;
+    bottom: 0;
+    margin: 5px;
+    width: 95%;
+}
+
+.btnFill {
+    background-color: blue;
+    border: solid 2px blue;
 }
 
 hr {
@@ -33,27 +60,29 @@ hr {
 }
 
 .deals {
-    
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1em;
 }
 
-.footer-nav {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1em;
-}
+
 
 .sale-item {
     display: flex;
     flex-direction: column;
     border: solid black 1px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     padding: 2em;
     align-items: center;
+    position: relative;
 }
 
+/* Footer */
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
 
 .footer-nav-item {
     display: flex;
@@ -69,23 +98,25 @@ ul {
     list-style: none;
 }
 
+h3 {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
 .clearfix {
     content: "";
     clear: both;
     display: table;
   }
 
-  h3 {
-      text-align: center;
-  }
 
-  li {
-      text-align: center;
-  }
-
-  label {
-      text-align: center;
-  }
 
   .price {
       font-weight: bold;

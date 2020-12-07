@@ -39,6 +39,7 @@
     color: lightblue;
     border: solid 2px lightblue;
     border-radius: 5px;
+    background-color: white;
 }
 
 .sale-item .btn {
@@ -46,11 +47,52 @@
     bottom: 0;
     margin: 5px;
     width: 95%;
+    
 }
 
 .btnFill {
     background-color: blue;
     border: solid 2px blue;
+}
+
+/* Sale Deal/ Item */
+
+.deals {
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.sale-item .price {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.sale-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid lightslategray 1px;
+    /* background-color: whitesmoke; */
+    align-items: center;
+    position: relative;
+}
+
+.sale-item .saleH3 {
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: solid lightslategray 1px;
+    background-color: whitesmoke;
+}
+
+.sale-item .saleH3 h3{
+    margin: 5px 0;
+    font-size: .8em;
+    
+}
+
+.priceLabel {
+    margin-top: .5em;
 }
 
 hr {
@@ -59,23 +101,11 @@ hr {
     margin-bottom: 20px;
 }
 
-.deals {
-    display: flex;
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1em;
-}
 
 
 
-.sale-item {
-    display: flex;
-    flex-direction: column;
-    border: solid black 1px;
-    background-color: whitesmoke;
-    padding: 2em;
-    align-items: center;
-    position: relative;
-}
+
+
 
 /* Footer */
 .footer-nav {
@@ -96,6 +126,10 @@ footer h3 {
 
 ul {
     list-style: none;
+    padding: 0 15px 15px 15px;
+    margin: 25px 0;
+    font-size: .8em;
+    margin-block-start: .2em;
 }
 
 h3 {
@@ -118,6 +152,3 @@ label {
 
 
 
-  .price {
-      font-weight: bold;
-  }

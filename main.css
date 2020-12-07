@@ -1,3 +1,7 @@
+body {
+    margin: 5px;
+}
+
 /* Main */
 .main-header {
     display: flex;
@@ -61,6 +65,7 @@
     display: flex;
     gap: 1em;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .sale-item .price {
@@ -69,7 +74,7 @@
 }
 
 .sale-item {
-    width: 100%;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     border: solid lightslategray 1px;
@@ -95,29 +100,53 @@
     margin-top: .5em;
 }
 
-hr {
+#headerHr {
     border-top: 3px solid lightslategray;
     box-shadow: 0 5px 10px 3px lightslategray;
     margin-bottom: 20px;
 }
 
+#footerHr {
+    border-top: 3px solid lightslategray;
+    box-shadow: 0 5px 10px 3px lightslategray;
+    flex: 0 0 100%;
+}
+#copy {
+
+    justify-self: left;
+    
+}
+#busB {
+    
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 0 20px 0 0 ;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+
+}
 
 
 
 
 
+footer {
+    margin-top: 2em;
+}
 
 /* Footer */
 .footer-nav {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    margin-left: 35%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1em;
 }
 
 .footer-nav-item {
-    display: flex;
     flex-direction: column;
-    padding: 2em;
+    /* padding: 2em; */
 }
 
 footer h3 {

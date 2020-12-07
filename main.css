@@ -106,18 +106,34 @@ body {
     margin-bottom: 20px;
 }
 
+
+
 #footerHr {
     border-top: 3px solid lightslategray;
     box-shadow: 0 5px 10px 3px lightslategray;
     flex: 0 0 100%;
 }
-#copy {
 
-    justify-self: left;
-    
+
+
+
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30%;
 }
+
+footer {
+    margin-top: 2em;
+}
+
+#copyright {
+    display: inline-block;
+    padding-top: 1.2em;
+}
+
+
 #busB {
-    
     text-align: center;
     font-weight: bold;
     display: block;
@@ -125,29 +141,19 @@ body {
     color: white;
     background-color: purple;
     border-radius: 5px;
-
 }
 
-
-
-
-
-footer {
-    margin-top: 2em;
-}
 
 /* Footer */
 .footer-nav {
     display: flex;
-    margin-left: 35%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1em;
+    padding-left: 4em;
 }
 
-.footer-nav-item {
-    flex-direction: column;
-    /* padding: 2em; */
-}
+
+
+
 
 footer h3 {
     font-weight: bold;

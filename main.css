@@ -151,10 +151,12 @@ footer {
 .footer-nav {
     display: flex;
     gap: 1em;
-    padding-left: 3em;
+    padding-left: 4em;
 }
 
-
+.footer-nav-item ul li {
+    text-align: left;
+}
 
 
 

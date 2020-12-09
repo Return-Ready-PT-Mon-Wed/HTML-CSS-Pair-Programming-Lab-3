@@ -1,0 +1,195 @@
+body {
+    margin: 5px;
+    max-width: 1200px;
+}
+
+/* Main */
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.main-nav {
+    display: flex;
+    padding-top: 15px;
+}
+
+.main-nav a {
+    text-align: center;
+	display: block;
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    margin: 0% 28% 3em 28%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1,
+.container p {
+    text-align: center;
+}
+
+/* #companyName {
+    padding: 10px;
+} */
+
+/* Sale Item Button */
+#signup,
+.btn {
+    color: lightblue;
+    border: solid 2px lightblue;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.sale-item .btn {
+    position: absolute;
+    bottom: 0;
+    margin: 5px;
+    width: 92%;
+    
+}
+
+.btnFill {
+    background-color: blue;
+    border: solid 2px blue;
+}
+
+/* Sale Deal/ Item */
+
+.deals {
+    padding-top: 1em;
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sale-item .price {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.sale-item {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    border: solid lightslategray 1px;
+    /* background-color: whitesmoke; */
+    align-items: center;
+    position: relative;
+}
+
+.sale-item .saleH3 {
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: solid lightslategray 1px;
+    background-color: whitesmoke;
+}
+
+.sale-item .saleH3 h3{
+    margin: 5px 0;
+    font-size: .8em;
+    
+}
+
+.priceLabel {
+    margin-top: .5em;
+}
+
+#headerHr {
+    border-top: 3px solid lightslategray;
+    box-shadow: 0 5px 10px 3px lightslategray;
+    margin-bottom: 20px;
+}
+
+
+
+#hrDiv {
+    width: 42%;
+    margin: auto;
+}
+
+#footerHr {
+    border-top: 3px solid lightslategray;
+    box-shadow: 0 5px 10px 3px lightslategray;
+}
+
+
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 29%;
+}
+
+footer {
+    margin-top: 2em;
+}
+
+#copyright {
+    padding-top: 1.2em;
+}
+
+
+#busB {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 0 30px 0 0 ;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+.footer-nav {
+    display: flex;
+    gap: 1em;
+    padding-left: 4em;
+}
+
+.footer-nav-item ul li {
+    text-align: left;
+    padding-left: .8em;
+}
+
+
+
+footer h3 {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0 15px 15px 15px;
+    margin: 25px 0;
+    font-size: .8em;
+    margin-block-start: .2em;
+}
+
+h3 {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+

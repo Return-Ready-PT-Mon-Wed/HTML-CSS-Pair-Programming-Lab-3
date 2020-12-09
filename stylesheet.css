@@ -1,0 +1,62 @@
+.grid{
+
+    display:grid;
+    grid-template-areas:
+    "header . nav"
+    ". pricing ."
+    "flexcard flexcard flexcard"
+    "footer footer footer";
+
+}
+.flexcard{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    grid-area:flexcard;
+}
+
+nav{
+    grid-area:nav;
+
+}
+
+header{
+    grid-area:header;
+
+}
+ /* #free{
+grid-area:free;
+
+}
+#pro{
+    grid-area:pro;
+    
+}
+#enterprise{
+    grid-area:enterprise; 
+    
+} */
+footer{
+
+        grid-area:footer;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        
+
+}
+.pricing{
+    grid-area:pricing;
+    text-align:center;
+
+}
+ul{
+    list-style: none;
+    padding:0;
+
+}
+li{
+padding:3px 0;
+
+}

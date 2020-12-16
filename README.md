@@ -1,7 +1,7 @@
 # HTML CSS Pair Programming Lab 3
 
 ## Description
-You will pair program with a partner to complete this assignemnt. One partner, the driver, should share their screen and be the one typing. The other partner, the observer, should review each line of code. Both partners should be cooperating when solving problems. When an objective has been met, the driver should push the code to the GitHub account, the observer should pull the changes, and the two partners switch roles. 
+You will pair program with a partner to complete this assignment. One partner, the driver, should share their screen and be the one typing. The other partner, the observer, should review each line of code. Both partners should be cooperating when solving problems. When an objective has been met, the driver should push the code to the GitHub account, the observer should pull the changes, and the two partners switch roles. 
 
 ## Steps
 1. The page should have a navbar

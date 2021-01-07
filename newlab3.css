@@ -1,0 +1,46 @@
+
+ .flex-wrap {
+      display: flex;
+      align-items: inherit;
+    }
+    
+    .flex-header {
+      display: flex;
+      flex-direction: row;
+      background-color: DodgerBlue;
+
+    .flex-display {
+      background-color: red;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+      background: #eee;
+      border: 1px solid #ccc;
+      margin: 10px;
+      padding: 10px;
+    }
+    
+    
+    .flex-item {
+      flex: 0 1 auto;;
+    }
+    
+    
+    .fill {
+      flex: 1;
+    }
+    
+    .btn {
+      background:#069;
+      padding:10px;
+      color:#fff;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+    
